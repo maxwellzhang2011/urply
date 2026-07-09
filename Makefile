@@ -11,3 +11,9 @@ install-foru:
 
 install:
 	sudo mv release/urply /usr/local/bin/
+
+remove-foru:
+	rm ~/.local/bin/urply
+
+remove:
+	sudo rm /usr/local/bin/urply
